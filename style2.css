@@ -1,0 +1,158 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+header img{
+    width: 150px;
+    height:50px;
+    text-align: center;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #756c6c;
+    background-color: #c7cccd;
+    margin-left: 5px;
+    border-radius: 30px;
+    padding: 15px;
+  
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    text-align: center;
+
+}
+
+
+article {
+    background-color: rgb(196, 204, 206);
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+}
+
+.adresa{
+    background-color: rgb(196, 204, 206);
+    padding: 15px 45px 30px 45px;
+    width: 1000px;
+    margin: 20px;
+}
+
+
+.article-but {
+    text-decoration: none;
+    background: #cedcde;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+}
+
+
+footer {
+    background: #857d7d;
+    display: flex;
+    align-items: center;
+    padding: 45px 0px 45px 70px;
+    margin-top: 20px;
+}
+ 
+
+
+footer a {
+    margin-right: 50px;
+}
+
+footer p{
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    border: 2px solid gray;
+    margin: 10px;
+}    
+
+body img {
+    width: 300px;
+    height: 250px;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.about li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.about img {
+    border: 5px solid #fff;
+    width: 385px;
+    height: 385px;
+    margin-left: 30px;
+}
+header h1{
+    text-align: center;
+}
+
+.adresa .article-but {
+    text-decoration: none;
+    background: #cedcde;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+    margin-top: 20px;
+}
+
+
+
